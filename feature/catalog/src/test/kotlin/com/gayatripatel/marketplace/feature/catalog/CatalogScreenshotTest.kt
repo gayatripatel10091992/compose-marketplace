@@ -55,7 +55,7 @@ class CatalogScreenshotTest {
         captureRoboImage("build/outputs/roborazzi/04_product_detail.png") {
             MarketplaceTheme(darkTheme = false) {
                 ProductDetailScreen(
-                    product = products[5],
+                    product = products[15], // Li-ion Battery Packs: 605 kg in stock
                     quantityKg = 500,
                     showAddedMessage = false,
                     onQuantityChange = {},
